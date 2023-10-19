@@ -35,6 +35,30 @@ body {
   max-width: 800px;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 46px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 32px;
+    display: block;
+  }
+  h3 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  img {
+    display: none;
+  }
+  a {
+    display: block;
+    text-align: center;
+  }
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
